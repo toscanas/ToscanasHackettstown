@@ -1625,3 +1625,25 @@ body {padding-right: 0px !important;}
   border-radius: 10px;
   background-color: #ec1d25;
 }
+
+/*Todd Code*/
+.txt1, .tit1{
+    color:black;
+}
+
+.menuDinner{
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#menuDinner1{
+    background-image: url("menus/DinnerMenu1.jpg"); /* The image used */
+}
+
+#menuDinner2{
+    background-image: url("menus/DinnerMenu2.jpg"); /* The image used */
+}
+
