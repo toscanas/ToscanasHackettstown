@@ -1640,10 +1640,10 @@ body {padding-right: 0px !important;}
 }
 
 #menuDinner1{
-    background-image: url("menus/DinnerMenu1.jpg"); /* The image used */
+    background-image: url("../menus/DinnerMenu1.jpg"); /* The image used */
 }
 
 #menuDinner2{
-    background-image: url("menus/DinnerMenu2.jpg"); /* The image used */
+    background-image: url("../menus/DinnerMenu2.jpg"); /* The image used */
 }
 
