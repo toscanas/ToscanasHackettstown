@@ -1656,9 +1656,20 @@ body {padding-right: 0px !important;}
     background-image: url("../menus/DinnerMenu2.jpg"); /* The image used */
 }
 
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
     .menuDinner{
-        height: 1250px;
+        height: 1000px;
     }
 }
 
+@media only screen and (max-width: 600px) and (max-width: 749px){
+    .menuDinner{
+        height: 850px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menuDinner{
+        height: 700px;
+    }
+}
