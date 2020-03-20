@@ -1633,11 +1633,12 @@ body {padding-right: 0px !important;}
     text-shadow: 3px 3px #c1c17e;
 }
 
-.toddMenu{
+.tit4, #discoverText{
+    color: white;
+    text-shadow: 3px 3px #69814d;
 }
 
-.toddMenu img{
-    visibility: hidden;
+.toddMenu{
 }
 
 .menuDinner{
