@@ -1627,8 +1627,10 @@ body {padding-right: 0px !important;}
 }
 
 /*Todd Code*/
+/* SHADOW FOR HOMEPAGE TEXT */
 .txt1, .tit1{
     color:black;
+    text-shadow: 3px 3px #c1c17e;
 }
 
 .toddMenu{
