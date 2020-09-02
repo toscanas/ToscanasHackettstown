@@ -1641,8 +1641,12 @@ body {padding-right: 0px !important;}
 .toddMenu{
 }
 
-.menuDinner img{
-  height: 100%;
+.menuSheet img{
+  width: 100%;
+}
+
+.menuSheet .menuImage{
+  width: 100%;
 }
 
 /*
