@@ -1641,21 +1641,11 @@ body {padding-right: 0px !important;}
 .toddMenu{
 }
 
-.menuDinner{
-    height: 1500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 100%; /* Resize the background image to cover the entire container */
+.menuDinner img{
+  height: 100%;
 }
 
-#menuDinner1{
-    background-image: url("../menus/DinnerMenu1.jpg"); /* The image used */
-}
-
-#menuDinner2{
-    background-image: url("../menus/DinnerMenu2.jpg"); /* The image used */
-}
-
+/*
 @media only screen and (min-width: 750px) and (max-width: 1000px) {
     .menuDinner{
         height: 1000px;
@@ -1673,3 +1663,4 @@ body {padding-right: 0px !important;}
         height: 700px;
     }
 }
+*/
