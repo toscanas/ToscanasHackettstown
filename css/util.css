@@ -3728,7 +3728,6 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .parallax0 {
-  background-attachment: fixed;
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
