@@ -1011,7 +1011,6 @@ input[type="date" i] {
 ///////////////////////////////////////////////////////////
 */
 .header-intro {
-  background-attachment: fixed;
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1659,11 +1658,14 @@ body {padding-right: 0px !important;}
 }
 
 
-@media only screen and (hover: none) and (pointer: coarse){
+@media not screen and (hover: none) and (pointer: coarse){
 
 /* Regular CSS rules here*/
   .parallax0{ 
     background-attachment: fixed; /*I had to do this to fix because parallax doesnt work on iOS & android. This was originally in the parallax0 class.*/
+  }
+  .header-intro{
+    background-attachment: fixed;
   }
 }
 /*
