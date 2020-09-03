@@ -1649,17 +1649,23 @@ body {padding-right: 0px !important;}
   width: 100%;
 }
 
+/*These are just for testing.*/
 @supports not (-webkit-touch-callout: none) {
   /* CSS for other than iOS devices */ 
-  .parallax0{
-    background-attachment: fixed;
-  }
 }
 
 @supports (-webkit-touch-callout: none) {
   /* CSS specific to iOS devices */ 
 }
 
+
+@media only screen and (hover: none) and (pointer: coarse){
+
+/* Regular CSS rules here*/
+  .parallax0{ 
+    background-attachment: fixed; /*I had to do this to fix because parallax doesnt work on iOS & android. This was originally in the parallax0 class.*/
+  }
+}
 /*
 @media only screen and (min-width: 750px) and (max-width: 1000px) {
     .menuDinner{
