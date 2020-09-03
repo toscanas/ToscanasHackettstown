@@ -1653,7 +1653,7 @@ body {padding-right: 0px !important;}
   /* CSS specific to iOS devices */ 
   .parallax0{
     background-size: 100%;
-    background-attachment: fill;
+    background-attachment: fixed;
     background-position: center 0;
     background-repeat: no-repeat;
   }
